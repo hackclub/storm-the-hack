@@ -19,8 +19,7 @@ export default () => (
       <Box as="header" 
         sx={{ bg: 'sheet', mb: [4, 5] }}>
         <Container sx={{ 
-          py: [4, 5],
-          backgroundColor: 'rgba(52, 52, 52, 0.8)'
+          py: [4, 5]
         }}>
           <Heading
             as="h3"
