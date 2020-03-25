@@ -10,14 +10,18 @@ export default () => (
       justifyContent: 'center',
       color: 'white',
       backgroundImage:
-          'url(https://i.ibb.co/cr9H7Bx/background.png)',
+          'url(https://i.imgur.com/6yyRG7a.png)',
       backgroundSize: 'background',
       backgroundPosition: 'center',
       py: [5, 6]
     }}
     >
-      <Box as="header" sx={{ bg: 'sheet', mb: [4, 5] }}>
-        <Container sx={{ py: [4, 5] }}>
+      <Box as="header" 
+        sx={{ bg: 'sheet', mb: [4, 5] }}>
+        <Container sx={{ 
+          py: [4, 5],
+          backgroundColor: 'rgba(52, 52, 52, 0.8)'
+        }}>
           <Heading
             as="h3"
             variant="subtitle"
