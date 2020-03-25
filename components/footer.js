@@ -29,7 +29,7 @@ export default () => (
         Designed by <Link href="https://lachlanjc.me">@lachlanjc</Link>
       </Text>
       <Text>
-        <Link href="https://github.com/hackclub/globalcovid">
+        <Link href="https://github.com/iamcpdev/takeover">
           Open source on GitHub
         </Link>
       </Text>
