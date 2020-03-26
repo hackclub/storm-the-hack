@@ -17,7 +17,7 @@ export default () => (
     <Container variant="narrow">
       <Heading
         variant="headline"
-        sx={{ color: 'secondary', fontSize: [3, 4], mt: 0, mb: 3 }}
+        sx={{ color: 'primary', fontSize: [3, 4], mt: 0, mb: 3 }}
       >
         This website was made by teenagers in{' '}
         <Link href="https://hackclub.com/">Hack&nbsp;Club</Link>
