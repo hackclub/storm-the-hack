@@ -36,7 +36,7 @@ export default () => (
           variant="subtitle"
           sx={{ color: 'muted', mt: 0, mb: [3, 4], fontFamily: 'body', fontSize: [2, 3, 4] }}
         >
-          26 March, 9AM Pacific. Category 6.
+          26 March, 9AM Pacific. Category 6 🌩️
         </Heading>
           <Button
             as="a"
@@ -65,7 +65,7 @@ export default () => (
             variant="subtitle"
             sx={{ color: 'muted', mt: 3, mb: 4, fontFamily: 'body', fontSize: [2, 3, 4] }}
           >
-            Thursday–Monday 9AM–9AM Pacific
+            Thursday–Monday 9AM–9AM Pacific  🌎
           </Heading>
           <Heading
             as="h2"
@@ -101,7 +101,7 @@ export default () => (
         <Card>
           <Flex sx={{ flexDirection: "column", height: '100%', justifyContent: "space-between" }}>
             <Box>
-              <Heading variant="headline" sx={{ color: "orange" }}>
+              <Heading variant="headline" sx={{ color: "#eeaa11" }}>
                 1. Join the Storm
               </Heading>
               <Signup/>
@@ -109,7 +109,7 @@ export default () => (
           <Button
             as="a"
             href="https://hack.af/cgh"
-            sx={{ fontSize: [2, 3], py: [3, 3], px: [4, 4], mt: [3, 4], mr: [3, 4], background: "orange", alignSelf: "end" }}
+            sx={{ fontSize: [2, 3], py: [3, 3], px: [4, 4], mt: [3, 4], mr: [3, 4], background: "#eeaa11", alignSelf: "end" }}
           >
             SIGN UP
           </Button>
@@ -135,7 +135,7 @@ export default () => (
         <Card>
           <Flex sx={{ flexDirection: "column", height: '100%', justifyContent: "space-between" }}>
             <Box>
-              <Heading variant="headline" sx={{ color: "red" }}>
+              <Heading variant="headline" sx={{ color: "ff0022" }}>
                 3. Enter the Chat
               </Heading>
               <Slack/>
@@ -143,7 +143,7 @@ export default () => (
             <Button
               as="a"
               href="https://hack.af/storm-slack"
-              sx={{ fontSize: [2, 3], py: [3, 3], px: [4, 4], mt: [3, 4], mr: [3, 4], background: "red", alignSelf: "end" }}
+              sx={{ fontSize: [2, 3], py: [3, 3], px: [4, 4], mt: [3, 4], mr: [3, 4], background: "ff2222", alignSelf: "end" }}
             >
               JOIN SLACK
             </Button>
