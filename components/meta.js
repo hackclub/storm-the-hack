@@ -2,10 +2,10 @@ import Head from 'next/head'
 import theme from '../lib/theme'
 
 export default ({
-  title = 'COVID-19 Global Hackathon',
+  title = 'Storm The Hackathon',
   description = '',
-  image = 'https://globalcovid.now.sh/card.png',
-  url = 'https://globalcovid.com/'
+  image = 'https://storm-the-hack.now.sh/card.png',
+  url = 'https://hack.af/storm/'
 }) => (
   <Head>
     <title>{title}</title>
@@ -13,7 +13,7 @@ export default ({
     <meta name="twitter:title" content={title} />
     <meta name="og:url" content={url} />
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="COVID-19 Global Hackathon" />
+    <meta property="og:site_name" content={title} />
     <meta name="description" content={description} />
     <meta property="og:description" content={description} />
     <meta name="twitter:description" content={description} />
@@ -37,10 +37,10 @@ export default ({
       sizes="16x16"
       href="https://globalcovid.now.sh/favicon-16x16.png"
     />
-    <link rel="manifest" href="https://globalcovid.now.sh/site.webmanifest" />
+    <link rel="manifest" href="https://storm-the-hack.now.sh/site.webmanifest" />
     <link
       rel="mask-icon"
-      href="https://globalcovid.now.sh/safari-pinned-tab.svg"
+      href="https://storm-the-hack.now.sh/safari-pinned-tab.svg"
       color={theme.colors.primary}
     />
     <meta name="apple-mobile-web-app-title" content="COVID-19 Hackathon" />
