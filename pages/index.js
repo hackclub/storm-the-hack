@@ -29,7 +29,7 @@ export default () => (
           variant="subtitle"
           sx={{ color: '#ff3300', fontSize: [4, 5, 6], mt: 0, mb: [2, 3] }}
         >
-          ⚠️ HACKATHON ARRIVES
+          ⚠️ HACKATHON MAKES LANDFALL
         </Heading>
         <Heading
           as="h2"
