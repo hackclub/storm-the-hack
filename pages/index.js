@@ -47,7 +47,7 @@ export default () => (
           </Heading>
           <Button
             as="a"
-            href="hack.af/zuck"
+            href="https://hack.af/zuck"
             variant="outline"
             sx={{ fontSize: [2, 3], px: [3, 4], mb: [4, 5] }}
           >
