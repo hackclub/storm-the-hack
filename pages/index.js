@@ -130,7 +130,7 @@ export default () => (
             </Box>
             <Button
               as="a"
-              href="https://hack.af/storm-troops"
+              href="https://hack.af/barga"
               sx={{ fontSize: [2, 3], py: [3, 3], px: [4, 4], mt: [3, 4], mr: [3, 4], background: "#dd2244", alignSelf: "end" }}
             >
               MAIL OUT
