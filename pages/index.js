@@ -36,7 +36,7 @@ export default () => (
           variant="subtitle"
           sx={{ color: 'muted', mt: 0, mb: [3, 4], fontFamily: 'body', fontSize: [2, 3, 4] }}
         >
-          26 March, 9AM Pacific. Category 6 🌩️
+          --- 26 March, 9AM Pacific. Category 7 🌩️
         </Heading>
           <Button
             as="a"
