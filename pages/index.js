@@ -20,14 +20,14 @@ export default () => (
       }}
     >
       <Box as="header" 
-        sx={{ bg: 'sheet', mb: [4, 5] }}>
+        sx={{ bg: 'sheet', pt: [3], pb: [4], mb: 5 }}>
         <Container sx={{ 
           py: [0, 0]
       }}>
         <Heading
           as="h2"
           variant="subtitle"
-          sx={{ color: '#ff3300', fontSize: [4, 5, 6], mt: [3, 4], mb: [3, 4] }}
+          sx={{ color: '#ff3300', fontSize: [4, 5, 6], mt: 0, mb: [2, 3] }}
         >
           ⚠️ HACKATHON ARRIVES
         </Heading>
@@ -42,14 +42,14 @@ export default () => (
             as="a"
             href="https://hack.af/cgh"
             variant="outline"
-            sx={{ fontSize: [2, 3], px: [3, 4], mb: [4, 5], mt: 0 }}
+            sx={{ fontSize: [2, 3], px: [3, 4], my: 0 }}
           >
             REGISTER NOW
         </Button>
       </Container>
       </Box>
       <Box as="header" 
-        sx={{ bg: 'sheet', mb: [4, 5] }}>
+        sx={{ bg: 'sheet', mb: [2, 3] }}>
         <Container sx={{ 
           py: [0, 0]
         }}>
