@@ -123,7 +123,7 @@ export default () => (
         <Card>
           <Flex sx={{ flexDirection: "column", height: '100%', justifyContent: "space-between" }}>
             <Box>
-              <Heading variant="headline" sx={{ color: "#dd4444" }}>
+              <Heading variant="headline" sx={{ color: "#dd2244" }}>
                 4. Rally the Troops
               </Heading>
               <Mail/>

@@ -24,10 +24,10 @@ export default () => (
         {' '} Quaranteam
       </Heading>
       <Text sx={{ mb: 3 }}>
-        Remixed by <Link href="https://iamcpdev.me">@iamcpdev</Link>
+        Remixed by <Link href="https://iamcpdev.me">@iamcpdev + @cwalker + @msw</Link>
       </Text>
       <Text sx={{ mb: 3 }}>
-        Designed by <Link href="https://lachlanjc.me">@lachlanjc</Link>
+      <Link href="https://hack.af/cgh">Original Site</Link> by <Link href="https://lachlanjc.me">@lachlanjc</Link>
       </Text>
       <Text>
         <Link href="https://github.com/iamcpdev/takeover">
