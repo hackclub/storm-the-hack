@@ -19,8 +19,9 @@ export default () => (
         variant="headline"
         sx={{ color: 'primary', fontSize: [3, 4], mt: 0, mb: 3 }}
       >
-        This website was made by teenagers in{' '}
+        This website was made by the {' '}
         <Link href="https://hackclub.com/">Hack&nbsp;Club</Link>
+        {' '} Quaranteam
       </Heading>
       <Text sx={{ mb: 3 }}>
         Remixed by <Link href="https://iamcpdev.me">@iamcpdev</Link>
