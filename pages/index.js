@@ -23,6 +23,35 @@ export default () => (
         sx={{ bg: 'sheet', mb: [4, 5] }}>
         <Container sx={{ 
           py: [0, 0]
+      }}>
+        <Heading
+          as="h2"
+          variant="subtitle"
+          sx={{ color: '#ff3300', fontSize: [4, 5, 6], mt: [3, 4], mb: [3, 4] }}
+        >
+          ⚠️ HACKATHON ARRIVES
+        </Heading>
+        <Heading
+          as="h2"
+          variant="subtitle"
+          sx={{ color: 'muted', mt: 0, mb: [3, 4], fontFamily: 'body', fontSize: [2, 3, 4] }}
+        >
+          26 March, 9AM Pacific. Category 6.
+        </Heading>
+          <Button
+            as="a"
+            href="https://hack.af/cgh"
+            variant="outline"
+            sx={{ fontSize: [2, 3], px: [3, 4], mb: [4, 5], mt: 0 }}
+          >
+            REGISTER NOW
+        </Button>
+      </Container>
+      </Box>
+      <Box as="header" 
+        sx={{ bg: 'sheet', mb: [4, 5] }}>
+        <Container sx={{ 
+          py: [0, 0]
         }}>
           <Heading
             as="h2"
