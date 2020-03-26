@@ -1,5 +1,5 @@
 # COVID-19 Global Hackathon
 
-[**takeoverglobalcovid.now.sh**](https://takeoverglobalcovid.now.sh)
+[**storm-the-hack.now.sh**](https://storm-the-hack.now.sh/)
 
 MIT License
