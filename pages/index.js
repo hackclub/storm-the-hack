@@ -71,7 +71,7 @@ export default () => (
         >
           <Card>
             <Heading variant="headline" sx={{ color: "orange" }}>
-              Mobilize!
+              Roll call!
             </Heading>
             <Why />
               <Button
@@ -83,16 +83,16 @@ export default () => (
               </Button>
           </Card>
           <Card>
-            <Heading variant="headline" sx={{ color: "blue" }}>
+            <Heading variant="headline" sx={{ color: "#ff3300" }}>
               Join the Storm
             </Heading>
             <About />
               <Button
                 as="a"
                 href="https://hack.af/cgh"
-                sx={{ fontSize: [2, 3], py: [3, 3], px: [4, 4], mt: [3, 4], mr: [3, 4], background: "blue" }}
+                sx={{ fontSize: [2, 3], py: [3, 3], px: [4, 4], mt: [3, 4], mr: [3, 4], background: "#ff3300" }}
               >
-                SUIT UP
+                SIGN UP
               </Button>
           </Card>
         </Grid>
