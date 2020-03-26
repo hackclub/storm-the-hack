@@ -20,7 +20,7 @@ export default () => (
       }}
     >
       <Box as="header" 
-        sx={{ bg: 'sheet', pt: [3], pb: [4], mb: 5 }}>
+        sx={{ bg: 'sheet', pt: [4], pb: [4], mb: 5 }}>
         <Container sx={{ 
           py: [0, 0]
       }}>
@@ -42,7 +42,7 @@ export default () => (
             as="a"
             href="https://hack.af/cgh"
             variant="outline"
-            sx={{ fontSize: [2, 3], px: [3, 4], my: 0 }}
+            sx={{ fontSize: [2, 3], px: [3, 4], mt: 0, mb: 2 }}
           >
             REGISTER NOW
         </Button>
