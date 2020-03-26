@@ -1,18 +1,12 @@
 import { Box, Button, Card, Container, Grid, Heading, Text, Flex, Image, Link } from 'theme-ui'
-import About from '../components/about.mdx'
-import Why from '../components/why.mdx'
-import Signature from '../components/signature.mdx'
 import Mail from '../components/mail.mdx'
 import Signup from '../components/signup.mdx'
 import Slack from '../components/slack.mdx'
 import Suit from '../components/suit.mdx'
-import Rally from '../components/rally.mdx'
 
 export default () => (
   <>
     <Container sx={{ textAlign: 'center' }}>
-      {/* <Image src="/background.png" />
-      <Image src="/poster-front.png" /> */}
       <Image src="/poster-full.png" sx={{ maxHeight: '100vh' }} />
     </Container>
     <Flex
@@ -22,7 +16,6 @@ export default () => (
         color: "white",
         backgroundImage: "url(background.png)",
         backgroundSize: "100%",
-        // backgroundRepeat: 'no-repeat',
         pt: [5, 6]
       }}
     >
@@ -54,7 +47,7 @@ export default () => (
           </Heading>
           <Button
             as="a"
-            href="https://www.facebook.com/zuck/posts/10111707674548151"
+            href="hack.af/zuck"
             variant="outline"
             sx={{ fontSize: [2, 3], px: [3, 4], mb: [4, 5] }}
           >
@@ -155,12 +148,15 @@ export default () => (
             pt: 4
           }}
         >
-          {/* <Rally />  */}
-          <Heading variant="headline" sx={{ color: "snow", mb: 0, fontSize: [4, 5], textAlign: "center"  }}>
-            All done? Rally&nbsp;in
+          <Heading variant="headline" sx={{ color: "snow", mb: 0, fontSize: 5, textAlign: "center"  }}>
+            5.&nbsp;Rally&nbsp;in 
+            {/* <Link href="https://hack.af/storm-channel" sx={{ ml: 3, mt: 0, textAlign: "center", fontSize: 5}}>
+              #storm-covid-hackathon
+            </Link> */}
           </Heading>
+          
           <Link href="https://hack.af/storm-channel" sx={{ mt: 0, textAlign: "center" }}>
-            <Heading variant="headline" sx={{ fontSize: [5, 5] }}>
+            <Heading variant="headline" sx={{ fontSize: 5 }}>
               #storm-covid-hackathon
             </Heading>
           </Link>
