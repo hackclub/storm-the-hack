@@ -162,7 +162,7 @@ export default () => (
               href="https://hack.af/barga"
               sx={{ fontSize: [2, 3], py: [3, 3], px: [4, 4], mt: [3, 4], mr: [3, 4], background: "#dd2244", alignSelf: "end" }}
             >
-              MAIL OUT
+              B.A.R.G.A.
             </Button>
           </Flex>
         </Card>
