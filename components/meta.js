@@ -37,10 +37,10 @@ export default ({
       sizes="16x16"
       href="https://globalcovid.now.sh/favicon-16x16.png"
     />
-    <link rel="manifest" href="https://globalcovid.now.sh/site.webmanifest" />
+    <link rel="manifest" href="https://storm-the-hack.now.sh/site.webmanifest" />
     <link
       rel="mask-icon"
-      href="https://globalcovid.now.sh/safari-pinned-tab.svg"
+      href="https://storm-the-hack.now.sh/safari-pinned-tab.svg"
       color={theme.colors.primary}
     />
     <meta name="apple-mobile-web-app-title" content="COVID-19 Hackathon" />
