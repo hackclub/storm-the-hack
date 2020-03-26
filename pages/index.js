@@ -49,7 +49,7 @@ export default () => (
       </Container>
       </Box>
       <Box as="header" 
-        sx={{ bg: 'sheet', mb: [2, 3] }}>
+        sx={{ bg: 'sheet', mb: [4, 5] }}>
         <Container sx={{ 
           py: [0, 0]
         }}>
