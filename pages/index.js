@@ -123,15 +123,15 @@ export default () => (
         <Card>
           <Flex sx={{ flexDirection: "column", height: '100%', justifyContent: "space-between" }}>
             <Box>
-              <Heading variant="headline" sx={{ color: "dd4411" }}>
-                4. Call The Troops
+              <Heading variant="headline" sx={{ color: "#dd4444" }}>
+                4. Rally the Troops
               </Heading>
               <Mail/>
             </Box>
             <Button
               as="a"
               href="https://hack.af/storm-troops"
-              sx={{ fontSize: [2, 3], py: [3, 3], px: [4, 4], mt: [3, 4], mr: [3, 4], background: "dd4411", alignSelf: "end" }}
+              sx={{ fontSize: [2, 3], py: [3, 3], px: [4, 4], mt: [3, 4], mr: [3, 4], background: "#dd2244", alignSelf: "end" }}
             >
               MAIL OUT
             </Button>
@@ -149,14 +149,14 @@ export default () => (
           }}
         >
           <Heading variant="headline" sx={{ color: "snow", mb: 0, fontSize: 5, textAlign: "center"  }}>
-            5.&nbsp;Rally&nbsp;in 
+            5.&nbsp;Form&nbsp;Up&nbsp;in 
             {/* <Link href="https://hack.af/storm-channel" sx={{ ml: 3, mt: 0, textAlign: "center", fontSize: 5}}>
               #storm-covid-hackathon
             </Link> */}
           </Heading>
           
           <Link href="https://hack.af/storm-channel" sx={{ mt: 0, textAlign: "center" }}>
-            <Heading variant="headline" sx={{ fontSize: 5 }}>
+            <Heading variant="headline" sx={{  mt: 0, fontSize: 5 }}>
               #storm-covid-hackathon
             </Heading>
           </Link>
